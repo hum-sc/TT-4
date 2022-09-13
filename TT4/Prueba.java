@@ -5,6 +5,5 @@ public class Prueba {
         Window window = new Window("Prueba", 400, 250);
         window.setVisible(true);
         int[] inte =window.getInt(2, new String[]{"Numero de nodos", "Numero de lados"}, "Bienvenido, ingrese los siguientes datos", "Continuar");
-        
     }
 }
